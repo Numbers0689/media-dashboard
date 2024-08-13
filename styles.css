@@ -100,14 +100,9 @@ header {
     padding: 20px 40px;
     padding-right: 90px;
     border-radius: 15px;;
-    /* display: grid;
-    grid-template-rows: 40% auto;
-    gap: 20px; */
 }
 
 .main {
-    /* display: grid;
-    grid-template-columns: 1fr 280px; */
     margin-bottom: 5px;
     margin-top: 10px;
 }
@@ -180,7 +175,6 @@ p > img {
 .article {
     display: grid;
     grid-template-rows: 50px 1fr;
-    /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
     grid-template-columns: auto;
     gap: 20px;
     margin-left: 20px;
@@ -205,13 +199,9 @@ p > img {
     justify-content: space-between;
     border-radius: 10px;
     background-color: var(--primary);
-    /* border-left: var(--linecolor) solid 6px; */
     border: 1px solid var(--static11);
     padding: 30px;
     margin-bottom: 20px;
-    /* display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2em 1fr 25px; */
 }
 
 .card > div > img {
@@ -235,63 +225,6 @@ p > img {
     font-size: 13px;
 }
 
-.git {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    justify-content: end;
-    gap: 10px;
-}
-
-.info {
-    display: grid;
-    grid-template-rows: 50px auto 30px auto;
-    padding: 0 20px 10px 20px;
-    gap: 20px;
-    align-content: start;
-}
-
-.i-card {
-    padding: 20px;
-    border-radius: 10px;
-    background-color: var(--static11);
-}
-
-.break {
-    height: 1px;
-    background-color: var(--linecolor);
-    margin: 10px 0 10px 0;
-    width: 100%;
-}
-
-.ann {
-    font-weight: 500;
-    margin-bottom: 5px;
-    color: var(--texttwo);
-}
-
-.i-card > img {
-    height: 40px;
-    width: 40px;
-    background-color: var(--texttwo);
-    border-radius: 50%;
-}
-
-.two {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 15px;
-    justify-content: start;
-}
-
-.id {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--texttwo);
-}
-
-.id + div {
-    font-size: 14px;
-}
 
 a {
     text-decoration: none;
@@ -335,13 +268,6 @@ input[type="text"]:focus {
 p, p + h2 {
     margin: 0;
 }
-
-/* .htwo {
-    display: grid;
-    grid-template-columns: auto auto 1fr;
-    gap: 20px;
-    align-items: center;
-} */
 
 li {
     list-style: none;

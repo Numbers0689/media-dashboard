@@ -208,6 +208,7 @@ p > img {
     /* border-left: var(--linecolor) solid 6px; */
     border: 1px solid var(--static11);
     padding: 30px;
+    margin-bottom: 20px;
     /* display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2em 1fr 25px; */
